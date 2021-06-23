@@ -1,0 +1,108 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <header>
+    <h1 id="title" > Remote Work Survey</h1>
+      <p id="description"> <i>Thank you very much for your time and feedback!</i></p>
+  </header>  
+    <form id="survey-form">
+      <div>
+        <label for="name" id="name-label"><b>Name</b></label><br/>
+        <input type="name" id="name" placeholder=" Enter Name" Required>
+      </div>
+      <div>
+        <label for="email" id="email-label"><b>Email Address</b></label><br/>
+        <input type="email" id="email" placeholder="Enter email address" Required>
+      </div>
+      <div>
+        <label for="number" id="number-label"><b>Age</b></label><br/>
+        <input type="number" id="number" placeholder="Enter age" min="18" max="56">
+      </div>
+      <div>
+        <label for="dropdown">
+          <b>Which option best describes your current role?</b>
+        </label><br/>
+        <select id="dropdown">
+          <option disabled selected value>Select current role</option>
+          <option>Fulltime</option>
+          <option>Intern</option>
+          <option>Contract</option>
+          <option>Part-time</option>
+        </select>
+      </div>
+      <div>
+        <label for="duration"><b>How long have you been working remotely?</b></label><br/>
+        <label for="month">Less than a month</label>
+        <input 
+               type="radio" 
+               name="How long have you been working remotely?"
+               value="month"
+               id="month"><br/>
+        <label for="6month">1-6 months</label>
+        <input 
+               type="radio" 
+               name="How long have you been working remotely?"
+               value="6month"
+               id="6month"><br/>
+        <label for="1year">1 year</label>
+        <input 
+               type="radio" 
+               name="How long have you been working remotely?"
+               value="1year"
+               id="1year"><br/>
+        <label for="years">More than 1 year</label>
+        <input 
+               type="radio" 
+               name="How long have you been working remotely?"
+               value="years"
+               id="years"><br/>
+      </div>
+      <div>
+        <label for="communication"><b>What platforms are you using to stay connected with your teams and clients? (check all that apply)</b></label><br/>
+        <label for="emaill">Email</label>
+        <input 
+               type="checkbox" 
+               name="What platforms are you using to stay connected with your teams and clients? (check all that apply)"
+               value="emaill"
+               id="emaill"><br/>
+        <label for="slack">Slack</label>
+        <input 
+               type="checkbox" 
+               name="What platforms are you using to stay connected with your teams and clients? (check all that apply)"
+               value="slack"
+               id="slack"><br/>
+        <label for="zoom">Zoom</label>
+        <input 
+               type="checkbox" 
+               name="What platforms are you using to stay connected with your teams and clients? (check all that apply)"
+                value="zoom"
+               id="zoom"><br/>
+        <label for="whatsapp">Whatsapp Messenger</label>
+        <input 
+               type="checkbox" 
+               name="What platforms are you using to stay connected with your teams and clients? (check all that apply)"
+               value="whatsapp"
+               id="whatsapp"><br/>
+        <label for="text">Text Messages</label>
+        <input 
+               type="checkbox" 
+               name="What platforms are you using to stay connected with your teams and clients? (check all that apply)"
+               value="text"
+               id="text"><br/>
+      </div>
+        <div>
+          <label for="suggestion"><b>What personal challenges are you experiencing while working remotely?</b></label><br/>
+          <textarea id="suggestion" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div>
+        <button type="submit" id="submit">Submit Here!</submit>
+        
+        
+      </div>
+  
+    </form>
+  </main>
+
+</body>

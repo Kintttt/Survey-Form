@@ -1,0 +1,52 @@
+body{
+    background:  url(https://content.thriveglobal.com/wp-content/uploads/2019/06/shutterstock_768646753.jpg), rgba(167, 240, 240, 0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    line-height: 1.4;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  main{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-size: 20px
+  }
+  #name, #email, #number, #dropdown{
+    width: 100%;
+    padding: 1%;
+  }
+  div{
+    padding-bottom: 3%;
+  }
+  #submit{
+    /* width: 40%;
+    height: 40%; */
+  }
+  #submit:hover{
+    transform: scale(1,2);
+    background-color: aquamarine;
+  }
+  #suggestion {
+      width:100%;
+      height: 100px;
+  }
+  form{
+    background: rgba(167, 240, 240, 0.8);
+    padding: 5%;
+    font-size: 20px
+  }
+  header{
+    text-align: center;
+  }
+    
+   
+  
+  
+  
+  
